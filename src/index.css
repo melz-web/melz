@@ -1,0 +1,33 @@
+@import "@fontsource/barlow";
+
+:root {
+  font-family: sans-serif;
+  background-color: #202020;
+  color: #dfdfdf;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.display {
+  font-family: "Barlow", sans-serif;
+  font-size: 12vmin;
+  margin: 0 2em;
+  text-align: center;
+  user-select: none;
+}
